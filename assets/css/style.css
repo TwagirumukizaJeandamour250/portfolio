@@ -16,15 +16,15 @@ h4 {
 }
 
 .profile-img {
-    width: 250px;
-    height: 190px;
+    width: 300px;
+    height: 250px;
     border-radius: 20px;
     margin-top: 100px;
 }
 
 #menu ul {
     list-style: none;
-    margin-left: 150px;
+    margin-left: 550px;
 }
 
 #menu ul li {
@@ -50,6 +50,11 @@ h4 {
 
 input[type=email]:focus {
     border: 3px solid #555;
+}
+
+textarea {
+    width: 41%;
+    margin-top: 20px;
 }
 
 .Read-btn {
@@ -106,6 +111,20 @@ input[type="email"] {
     border: 1px solid white;
 }
 
+.signup {
+    height: 45px;
+    width: 150px;
+    background-color: #f29b6c;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em;
+}
+
 .left-sidebar {
     max-width: 30%;
     max-height: 20%;
@@ -113,6 +132,7 @@ input[type="email"] {
     padding-left: 50px;
     padding-top: 100px;
     margin-top: 50px;
+    margin-left: 150px;
 }
 
 .right-sidebar {
@@ -121,7 +141,7 @@ input[type="email"] {
     background-color: #cc5a5a;
     padding-left: 50px;
     padding-top: 80px;
-    margin-left: 453px;
+    margin-left: 600px;
     margin-top: -440px;
 }
 
@@ -175,14 +195,17 @@ input[type="email"] {
 }
 
 .contact {
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 50px;
     padding: 0.5em;
+    background-color: #f8f4f4;
 }
 
 .footer {
     text-align: center;
-    font-weight: 2rem;
+    font-weight: 5rem;
     width: 100%;
-    background-color: #ffffff;
+    color: #9999f9;
+    padding: 0.5em;
+    font-size: 20px;
 }
